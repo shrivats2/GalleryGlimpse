@@ -45,7 +45,7 @@ export default function Navbar() {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <a to={url}>{text}</a>
+                    <a href={url}>{text}</a>
                   </li>
                 );
               })}

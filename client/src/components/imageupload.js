@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './imageupload.css'
+import './imageupload.css'
 
 const ImageUploadForm = () => {
   const [selectedFile, setSelectedFile] = useState(null);
