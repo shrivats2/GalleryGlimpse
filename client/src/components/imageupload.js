@@ -33,7 +33,7 @@ const ImageUploadForm = () => {
     formData.append("description", description);
 
     try {
-      const response = await fetch("http://localhost:3001/upload", {
+      const response = await fetch("https://galleryglimpse.onrender.com/upload", {
         method: "POST",
         body: formData,
       });

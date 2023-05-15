@@ -32,7 +32,7 @@ export const fetchImages = () => {
     dispatch(fetchImagesRequest());
 
     axios
-      .get('http://localhost:3001/images')
+      .get('https://galleryglimpse.onrender.com/images')
       .then((response) => {
         const images = response.data;
         dispatch(fetchImagesSuccess(images));

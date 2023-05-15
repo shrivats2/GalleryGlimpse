@@ -11,7 +11,7 @@ const ImageView = ({ images }) => {
     const imageClicked = async (image) => {
         try {
           const response = await fetch(
-            `http://localhost:3001/images/${image._id}/view`,
+            `https://galleryglimpse.onrender.com/images/${image._id}/view`,
             {
               method: "PUT",
             }
